@@ -31,4 +31,10 @@ Spec-driven development is described as a current focus, without claiming named 
 
 ## Publishing
 
-Deploy the contents of `build/` to the existing GitHub Pages configuration. Local edits and a successful build do not update the live website automatically. The legacy `npm run deploy` script requires `gh-pages`, which is not included in the repository's locked dependencies.
+GitHub Pages uses the GitHub Actions source. Pushing to `main` automatically runs `.github/workflows/deploy-pages.yml` to install locked dependencies, run the tests, build the React app, and deploy `build/` to:
+
+https://shivakarnati.github.io/fastreact/
+
+Watch the **Actions** tab for the deployment result. You can also run **Deploy portfolio to GitHub Pages** manually with **Run workflow**. Only a successful build is published; the previous deployment stays live when checks fail.
+
+The old `gh-pages` branch is retained as deployment history. It is no longer the publishing source. The obsolete `npm run deploy` script was removed because it referenced an uninstalled dependency and did not connect updates on `main` to the live site.
