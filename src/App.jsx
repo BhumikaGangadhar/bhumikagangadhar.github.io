@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/styles.css';
-import photo from '../bhumika.jpeg';
+import photo from './assets/bhumika.jpeg';
 import { experience, focusAreas, skills, projects, links } from './constants/portfolio';
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
