@@ -10,13 +10,3 @@ Live site: https://bhumikagangadhar.github.io/
 npm ci
 npm start
 ```
-
-## Publishing
-
-GitHub Actions builds and deploys the site to GitHub Pages when changes are pushed to `main`.
-
-## Content and layout
-
-- `src/constants/portfolio.js`: experience, focus areas, skills, selected work, and links.
-- `src/App.jsx`: portfolio sections and content structure.
-- `src/css/styles.css`: responsive layout, colors, typography, and accessibility preferences.
