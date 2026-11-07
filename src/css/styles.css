@@ -7,12 +7,12 @@
 700;
 800&display=swap');
 :root {
-  --paper:#f7f7f2;
-  --ink:#20251f;
-  --muted:#62685f;
-  --green:#39583d;
-  --lime:#d4ed82;
-  --line:#dce0d5;
+  --paper:#f4f7fb;
+  --ink:#14283f;
+  --muted:#5d6d80;
+  --green:#174b83;
+  --lime:#a9c9ed;
+  --line:#d5dfeb;
   --white:#fff;
   --display:'Manrope',sans-serif;
   --body:'DM Sans',sans-serif
@@ -47,7 +47,7 @@ button,a {
 }
 
 a:focus-visible {
-  outline:3px solid #648338;
+  outline:3px solid #3978b9;
   outline-offset:5px
 }
 
@@ -141,7 +141,7 @@ section[id] {
 }
 
 .wordmark span {
-  color:#7d9b49
+  color:#4c91d2
 }
 
 .site-header nav {
@@ -189,8 +189,8 @@ section[id] {
   height:7px;
   flex-shrink:0;
   border-radius:50%;
-  background:#708c42;
-  box-shadow:0 0 0 4px #e7ecd9
+  background:#3476b5;
+  box-shadow:0 0 0 4px #dceafb
 }
 
 .hero h1 {
@@ -270,7 +270,7 @@ section[id] {
 }
 
 .portrait-frame {
-  background:#e1e5d7;
+  background:#dce8f4;
   position:relative;
   aspect-ratio:4/5;
   border-radius:160px 160px 5px 5px;
@@ -281,7 +281,7 @@ section[id] {
 .profile-art {
   display: grid;
   place-items: center;
-  background: radial-gradient(circle at 70% 25%, #d4ed82 0, #d4ed82 12%, transparent 12.5%), linear-gradient(145deg, #dfe6d2, #a9b99a 55%, #39583d);
+  background: radial-gradient(circle at 70% 25%, #a9c9ed 0, #a9c9ed 12%, transparent 12.5%), linear-gradient(145deg, #dce8f5, #a9c4e0 55%, #174b83);
 }
 
 .profile-monogram {
@@ -412,7 +412,7 @@ section[id] {
 }
 
 .experience-section {
-  background:#eeefe8;
+  background:#eaf0f7;
   border-block:1px solid var(--line)
 }
 
@@ -432,14 +432,14 @@ section[id] {
 
 .timeline {
   padding-left:25px;
-  border-left:1px solid #cbd0c3
+  border-left:1px solid #c2d2e4
 }
 
 .job {
   position:relative;
   padding:0 0 42px;
   margin-bottom:35px;
-  border-bottom:1px solid #d4d9cc
+  border-bottom:1px solid #d0dce9
 }
 
 .job:last-child {
@@ -455,14 +455,14 @@ section[id] {
   left:-30px;
   width:9px;
   height:9px;
-  border:2px solid #eeefe8;
-  background:#8b9680;
+  border:2px solid #eaf0f7;
+  background:#87a5c5;
   border-radius:50%
 }
 
 .job-current:before {
   background:var(--green);
-  box-shadow:0 0 0 4px #d6dfcc
+  box-shadow:0 0 0 4px #dceafb
 }
 
 .job-meta {
@@ -475,8 +475,8 @@ section[id] {
 }
 
 .current-badge {
-  background:#d9e8c5;
-  color:#36552c;
+  background:#dceafb;
+  color:#174b83;
   padding:2px 8px;
   border-radius:3px;
   font-size:.6rem;
@@ -502,7 +502,7 @@ section[id] {
 .job-summary {
   font-size:.86rem;
   margin-top:18px;
-  color:#484f43
+  color:#4d6074
 }
 
 .job-points {
@@ -528,7 +528,7 @@ section[id] {
   font-family:monospace;
   letter-spacing:-.16em;
   font-size:8rem;
-  color:#b8c6a0;
+  color:#9bb8d8;
   line-height:1;
   transform:rotate(-8deg)
 }
@@ -567,7 +567,7 @@ section[id] {
 }
 
 .projects-section {
-  background:#e9ede2
+  background:#eaf0f7
 }
 
 .heading-row {
@@ -591,7 +591,7 @@ section[id] {
 
 .project-card {
   background:var(--paper);
-  border:1px solid #d7ddce;
+  border:1px solid #d5dfeb;
   border-radius:5px;
   overflow:hidden
 }
@@ -605,8 +605,8 @@ section[id] {
 }
 
 .project-art-0 {
-  background-color:#293c30;
-  background-image:linear-gradient(#d3ed8215 1px,transparent 1px),linear-gradient(90deg,#d3ed8215 1px,transparent 1px);
+  background-color:#173a60;
+  background-image:linear-gradient(#9fc4eb15 1px,transparent 1px),linear-gradient(90deg,#9fc4eb15 1px,transparent 1px);
   background-size:24px 24px
 }
 
@@ -633,7 +633,7 @@ section[id] {
 }
 
 .project-art-1 {
-  background:#d8e1c6
+  background:#dce8f5
 }
 
 .knowledge-art {
@@ -644,16 +644,16 @@ section[id] {
 }
 
 .knowledge-art span {
-  background:#f5f7ee;
+  background:#f6f9fd;
   padding:4px 20px;
   border-radius:20px;
-  border:1px solid #a6b791
+  border:1px solid #b5c9df
 }
 
 .knowledge-art strong {
-  border:1px solid #6e8455;
+  border:1px solid #6f91b6;
   padding:6px 15px;
-  background:#c1d29f
+  background:#c5daf0
 }
 
 .knowledge-art i {
@@ -663,14 +663,14 @@ section[id] {
 }
 
 .project-art-2 {
-  background:#eee8db
+  background:#e7edf5
 }
 
 .data-art {
   font-family:Georgia,serif;
   font-size:4.5rem;
   font-style:italic;
-  color:#74634a;
+  color:#315d88;
   text-align:center
 }
 
@@ -794,7 +794,7 @@ section[id] {
 }
 
 .contact-section .eyebrow {
-  color:#cad7be;
+  color:#c6dcf4;
   font-size:.62rem
 }
 
@@ -813,7 +813,7 @@ section[id] {
   display:inline-flex;
   gap:18px;
   align-items:center;
-  border-bottom:1px solid #829776;
+  border-bottom:1px solid #8db3da;
   padding-bottom:8px;
   overflow-wrap:anywhere
 }
@@ -829,7 +829,7 @@ section[id] {
 
 .contact-details>p {
   margin-bottom:20px;
-  color:#e0e7db
+  color:#e4eef8
 }
 
 .social-links {
